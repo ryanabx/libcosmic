@@ -18,8 +18,8 @@ notify = "8.0.0"
 ron = "0.9.0"
 serde = "1.0.219"
 cosmic-config-derive = { path = "../cosmic-config-derive/", optional = true }
-iced = { path = "../iced/", default-features = false, optional = true }
-iced_futures = { path = "../iced/futures/", default-features = false, optional = true }
+iced = { path = "../../iced/", default-features = false, optional = true }
+iced_futures = { path = "../../iced/futures/", default-features = false, optional = true }
 once_cell = "1.21.1"
 futures-util = { version = "0.3", optional = true }
 dirs.workspace = true
