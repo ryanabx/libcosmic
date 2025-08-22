@@ -149,7 +149,7 @@ shlex = { version = "1.3.0", optional = true }
 path = "cosmic-theme"
 
 [dependencies.iced]
-path = "./iced"
+path = "../iced"
 default-features = false
 features = [
     "advanced",
@@ -161,35 +161,35 @@ features = [
 ]
 
 [dependencies.iced_runtime]
-path = "./iced/runtime"
+path = "../iced/runtime"
 
 [dependencies.iced_renderer]
-path = "./iced/renderer"
+path = "../iced/renderer"
 
 [dependencies.iced_core]
-path = "./iced/core"
+path = "../iced/core"
 features = ["serde"]
 
 [dependencies.iced_widget]
-path = "./iced/widget"
+path = "../iced/widget"
 features = ["canvas"]
 
 [dependencies.iced_futures]
-path = "./iced/futures"
+path = "../iced/futures"
 
 [dependencies.iced_accessibility]
-path = "./iced/accessibility"
+path = "../iced/accessibility"
 optional = true
 
 [dependencies.iced_tiny_skia]
-path = "./iced/tiny_skia"
+path = "../iced/tiny_skia"
 
 [dependencies.iced_winit]
-path = "./iced/winit"
+path = "../iced/winit"
 optional = true
 
 [dependencies.iced_wgpu]
-path = "./iced/wgpu"
+path = "../iced/wgpu"
 optional = true
 
 [dependencies.cosmic-panel-config]
